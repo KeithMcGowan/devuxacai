@@ -72,7 +72,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    margin-top: -30vh;
+    /* margin-top: -30vh; */
 }
 
 .section2-div h3 {
