@@ -4,8 +4,3 @@
     --colorDark: hsl(331, 44%, 35%);
 }
 
-.main {
-    height: 300px;
-    width: 400px;
-    background-color: var(--colorMain);
-}
