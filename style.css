@@ -2,5 +2,8 @@
     --colorLight: hsl(331, 43%, 80%);
     --colorMain: hsl(331, 44%, 63%);
     --colorDark: hsl(331, 44%, 35%);
+
+    --neutralLight: white;
+    --neutralDark: black;
 }
 
