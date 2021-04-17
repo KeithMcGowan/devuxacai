@@ -1,7 +1,7 @@
 :root {
-    --colorLight: hsl(331, 43%, 80%);
-    --colorMain: hsl(331, 44%, 63%);
-    --colorDark: hsl(331, 44%, 35%);
+    --colorNeon: #E6FB09;
+    --colorMain: #5B1691;
+    /* --colorDark: hsl(331, 44%, 35%); */
 
     --neutralLight: white;
     --neutralDark: black;
