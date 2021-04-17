@@ -1,7 +1,7 @@
 :root {
   --colorNeon: #e6fb09;
   --colorMain: #5b1691;
-  /* --colorDark: hsl(331, 44%, 35%); */
+  --colorPuke: rgba(143, 153, 35, .5);
 
   --neutralLight: white;
   --neutralDark: black;
@@ -42,4 +42,26 @@
     border-radius: 10px;
     border: none;
     font-size: 2.5vh;
+}
+
+.section2 {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--colorPuke);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.section2-head {
+    font-size: 3rem;
+    margin-top: -30vh;
+}
+
+.section2-benefits {
+    display: flex;
+    flex-flow: row-;
+    justify-content: center;
+    align-items: center;
 }
