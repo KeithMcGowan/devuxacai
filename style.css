@@ -61,7 +61,21 @@
 
 .section2-benefits {
     display: flex;
-    flex-flow: row-;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
+}
+
+.section2-div {
+    width: 33%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30vh;
+}
+
+.section2-div h3 {
+    font-size: 3rem;
+    padding-bottom: 3vh;
 }
