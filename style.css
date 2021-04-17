@@ -7,3 +7,37 @@
     --neutralDark: black;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.section1 {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--colorMain);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.section1 h1 {
+    color: var(--neutralLight);
+    font-size: 5rem;
+}
+
+.section1 p {
+    color: var(--neutralLight);
+    padding-top: 3vh;
+    font-size: 2rem;
+}
+
+.button-buy {
+    margin-top: 3vh;
+    background-color: var(--colorNeon);
+    width: 5vw;
+    height: 3vh;
+    
+}
