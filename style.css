@@ -1,22 +1,19 @@
 :root {
-<<<<<<< HEAD
   --colorLight: hsl(331, 43%, 80%);
   --colorMain: hsl(331, 44%, 63%);
   --colorDark: hsl(331, 44%, 35%);
-=======
     --colorNeon: #E6FB09;
     --colorMain: #5B1691;
     /* --colorDark: hsl(331, 44%, 35%); */
 
     --neutralLight: white;
     --neutralDark: black;
->>>>>>> 6c4de7411c0c2ea9cb5143dcb11482a7e04d60fa
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section1 {
@@ -36,14 +33,16 @@
 
 .section1 p {
     color: var(--neutralLight);
-    padding-top: 3vh;
+    padding-top: 5vh;
     font-size: 2rem;
 }
 
 .button-buy {
-    margin-top: 3vh;
+    margin-top: 5vh;
     background-color: var(--colorNeon);
-    width: 5vw;
-    height: 3vh;
-    
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 2.5vh;
 }
