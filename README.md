@@ -1,4 +1,4 @@
 # devuxacai
 Hackathon project
 
-https://keithmcgowan.github.io/devuxacai/acai/
+https://keithmcgowan.github.io/devuxacai/acai
