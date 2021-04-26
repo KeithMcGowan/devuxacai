@@ -227,3 +227,42 @@ button {
   width: 90%;
   margin-top: -4vh;
 }
+
+#section4 {
+  background-color: var(--colorPuke);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100vw;
+}
+
+#section4 h2 {
+  color: var(--neutralLight);
+  font-size: 3rem;
+  display: flex;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row;
+  width: 85%;
+  margin: 0 0 10vh 0;
+}
+
+.testimonial-img {
+  margin: 0 10vw 0 5vw;
+}
+
+.testimonial-img img {
+  width: 32vw;
+  height: 35vh;
+  border-radius: 25px;
+}
+
+.testimonial-text {
+  color: var(--neutralLight);
+  font-size: 1.5rem;;
+}
